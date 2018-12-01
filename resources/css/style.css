@@ -61,11 +61,13 @@ header {
 
 .banner-text h1 {
   font-size: 3.2em;
+  font-weight: bold;
 }
 
 .banner-text h4 {
   font-size: 1.7em;
   padding: 20px 0;
+  font-weight: bold;
 }
 
 .banner-text p {
@@ -77,4 +79,75 @@ header {
   color: #fff;
   font-size: 1.3em;
   margin-top: 15px;
+}
+
+/* Highlights */
+.highlights {
+  display: flex;
+}
+
+.highlight-main {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.highlight-main img {
+  width: 100%;
+}
+
+.highlight-main h2 {
+  font-size: 2em;
+  padding-top: 32px;
+  font-weight: bold;
+}
+
+.highlight-main p {
+  padding-top: 24px;
+}
+
+.highlight-scroll {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  border-left: 1px solid #c0c0c0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.feature.center {
+  border-top: 3px solid #c0c0c0;
+  border-bottom: 3px solid #c0c0c0;
+}
+
+.feature-img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.feature-text {
+  width: 65%;
+}
+
+.feature-text h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.feature-text p {
+  padding: 8px 0;
+  width: 80%;
+}
+
+.feature-text a {
+  text-decoration: none;
 }
