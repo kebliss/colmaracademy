@@ -200,3 +200,43 @@ header {
 .course-text p {
   padding-top: 8px;
 }
+
+/* Thesis */
+.thesis h1 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.thesis-block {
+  display: flex;
+}
+
+.thesis-main {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.thesis-main video {
+  width: 100%;
+}
+
+.thesis-main h2 {
+  font-size: 2em;
+  padding-top: 32px;
+  font-weight: bold;
+}
+
+.thesis-main p {
+  padding-top: 24px;
+}
+
+.thesis-scroll {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  border-left: none;
+}
