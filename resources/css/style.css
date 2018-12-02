@@ -23,8 +23,12 @@ header {
   height: 100%;
 }
 
-.logo span {
+.logo p {
   font-size: 1.8em;
+}
+
+#colmar {
+  font-weight: bold;
 }
 
 .menu {
@@ -39,7 +43,7 @@ header {
 
 /* Banner */
 .banner {
-  background-color: #c0c0c0;
+  background-color: #f2f2f2;
   display: flex;
   align-items: center;
 }
@@ -111,7 +115,7 @@ header {
   width: 40%;
   padding-top: 16px;
   padding-bottom: 32px;
-  border-left: 1px solid #c0c0c0;
+  border-left: 1px solid #f2f2f2;
 }
 
 .feature {
@@ -120,8 +124,8 @@ header {
 }
 
 .feature.center {
-  border-top: 3px solid #c0c0c0;
-  border-bottom: 3px solid #c0c0c0;
+  border-top: 3px solid #f2f2f2;
+  border-bottom: 3px solid #f2f2f2;
 }
 
 .feature-img {
@@ -150,4 +154,49 @@ header {
 
 .feature-text a {
   text-decoration: none;
+}
+
+/* Academics */
+.academics {
+  background-color: #f2f2f2;
+}
+
+.academics h1 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 40px;
+  justify-content: center;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 32px;
+}
+
+.course-img img {
+  width: 100%;
+  height: auto;
+}
+
+.course-text {
+  background-color: #fff;
+  padding: 24px;
+}
+
+.course-text h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.course-text p {
+  padding-top: 8px;
 }
