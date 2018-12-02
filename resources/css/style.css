@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+p, h1, h2, h3, h4, a, span {
+  color: #282525;
+}
+
 /* Header */
 header {
   height: 64px;
@@ -31,6 +38,10 @@ header {
   font-weight: bold;
 }
 
+#academy {
+  color: #c0c0c0;
+}
+
 .menu {
   margin-right: 24px;
 }
@@ -38,7 +49,7 @@ header {
 .menu a {
   padding-left: 16px;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 /* Banner */
@@ -58,13 +69,13 @@ header {
 }
 
 .banner-text {
-  width: 25%;
+  width: 30%;
   margin-left: 24px;
   line-height: 1.2;
 }
 
 .banner-text h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -107,6 +118,10 @@ header {
 
 .highlight-main p {
   padding-top: 24px;
+}
+
+#citation {
+  font-size: 0.875em;
 }
 
 .highlight-scroll {
@@ -239,4 +254,21 @@ header {
   padding-top: 16px;
   padding-bottom: 32px;
   border-left: none;
+}
+
+.thesis-scroll .feature .feature-text {
+  width: 60%;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 1px solid #f2f2f2;
+  font-size: .875em;
+}
+
+.footer-menu a {
+  text-decoration: none;
 }
